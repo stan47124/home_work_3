@@ -10,7 +10,7 @@ exlude = '''
 )/
 '''
 
-[tool.black]
+[tool.isort]
 profile = "black"
 line-length = 90
 skip = [
