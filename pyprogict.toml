@@ -1,0 +1,20 @@
+[tool.black]
+line-length = 90
+target-vertion = ['py311']
+exlude = '''
+/(
+    \.git
+|.\venv
+| venv
+| .git
+)/
+'''
+
+[tool.black]
+profile = "black"
+line-length = 90
+skip = [
+    "venv"
+    ".venv"
+    ".git"
+]
